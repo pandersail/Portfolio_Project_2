@@ -22,17 +22,181 @@ p {
   margin: 0;
 }
 
-/* Header section 
+/* Header section*/ 
+ header {
+  display: flex;
+  background-color: #2B3A55;
+  justify-content: space-between;
+  padding-left: 400px;
+  padding-right: 400px;
+  align-items: center;
+ }
+ 
+
+ header h1 {
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 90px;
+  background-color: #F1D3B3;
+  color: #2B3A55;
+  font-size: 60px;
+ }
+
+ header li {
+  display: inline-flex;
+  padding: 40px;
+  font-size: 30px;
+  text-decoration: none;
+ }
+ a:link, a:hover, a:active, a:visited {
+  color: #F1D3B3;;
+  text-decoration: none;
+}
+
+/* Hero banner*/
+.hero-banner {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #CE7777;
+  padding: 0px;
+}
+
+.hero-banner .Emma {
+  width: 1820px;
+  height: auto;
+  
+}
+
+.hero-banner h2 {
+  color: #F1D3B3;
+  position: relative;
+  text-align: end;
+  padding-right: 100px;
+  margin-left: 75%;
+  bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  background-color: #CE7777;
+}
+
+/* About me*/
+#About-me {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efddc8;
+  color: #2B3A55;
+}
+
+#About-me h2 {
+  background-color: #CE7777;
+  font-size: 60px;
+  padding-left: 240px;
+  padding-right: 20px;
+  text-align: end;
+}
+
+#About-me  p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+/* Portfolio section*/
+
+#work {
+background-image: linear-gradient(#efddc8, #2B3A55);
+
+}
+#main-work {
+  display: flex;
+  /*background-color: #efddc8;*/
+  color: #2B3A55;
+  justify-content: end;
+  font-size: 30px;
+  align-items: center;
+}
+
+#main-work h2 {
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+#main-work h3 {
+  padding-left: 30px;
+}
+
+#main-work img {
+  width: 2450px;
+  height: auto;
+  padding-right: 30px;
+}
+
+.landingPage,
+.Recipes,
+.Horiseon {
+  padding-top: 40px;
+}
+
+/* remaining portfolio */
+#sub-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: #efddc8;*/
+  font-size: 30px;
+  color: #2B3A55;
+  padding-right: 400px;
+  padding-left: 300px;
+  padding-bottom: 30px;
+  
+}
+
+#sub-work img {
+  width: 1880px;
+  height: auto;
+}
+
+/* Contact*/
+#Contact-me {
+  display: flex;
+  background-color: #2B3A55;
+  justify-content: space-around;
+  align-items: center;
+  color: #efddc8;
+  padding-bottom: 15px;
+  padding-left: 65px;
+}
+
+#Contact-me h2 {
+  font-size: 60px; 
+  padding-left: 80px;
+}
+
+#Contact-me li,
+#Contact-me p {
+  font-size: 30px;
+}
+
+.pandersail {
+  width: 300px;
+  height: 300px;
+}
 
 
-/* Hero banner
-
-/* About me
-
-/* Portfolio section
-
-/* About me
-
-/* Contact
 
 /* Footer
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2E5E5;
+  font-size: 25px;
+  color: #2B3A55;
+  align-items: center;
+}
+
+.Footer img {
+  height: 300px;
+  width: 300px;
+}*/
