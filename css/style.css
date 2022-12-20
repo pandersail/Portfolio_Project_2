@@ -60,8 +60,7 @@
 
    a:link, a:hover, a:active, a:visited {
     color: #F1D3B3;;
-    text-decoration: none; 
-    
+    text-decoration: none;  
   }
   
   /* Hero banner*/
@@ -81,9 +80,9 @@
   .hero-banner h2 {
     color: #F1D3B3;
     position: relative;
-    text-align: end;
-    padding-right: 100px;
-    margin-left: 75%;
+    text-align: center;
+    padding-right: 30%;
+    margin-left: 50%;
     bottom: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
