@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
   }
   
   body {
@@ -21,6 +22,10 @@
   p {
     margin: 0;
   }
+
+  img {
+    max-width: 100%;
+  }
   
   /* Header section*/ 
    header {
@@ -40,7 +45,8 @@
     padding-left: 10%;
     background-color: #F1D3B3;
     color: #2B3A55;
-    font-size: 40px;
+    font-size: 3vw;
+    font-size: 6vh;
     border-radius: 0px;
       -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -50,7 +56,8 @@
   
    #nav-bar {
     display:inline-flex ;
-    font-size:18px;
+    font-size: 1.5vw;
+    font-size: 3vh;
     list-style-type: none;
    }
 
@@ -80,15 +87,17 @@
   .hero-banner h2 {
     color: #F1D3B3;
     position: relative;
-    text-align: center;
-    padding-right: 30%;
+    text-align: left;
+    padding-left: 0.5%;
     margin-left: 50%;
     bottom: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 25px;
+    font-size: 2vw;
+    font-size: 4vh;
     background-color: #CE7777;
   }
+
   
   /* About me*/
   #About-me {
@@ -100,7 +109,8 @@
   
   #About-me h2 {
     background-color: #CE7777;
-    font-size: 35px;
+    font-size: 3vw;
+    font-size: 6vh;
     padding-left: 240px;
     padding-right: 20px;
     text-align: end;
@@ -111,7 +121,8 @@
   }
   
   #About-me  p {
-    font-size: 18px;
+    font-size: 1vw;
+    font-size: 2vh;
     padding: 20px;
   }
   
