@@ -1,7 +1,16 @@
+/* @font-face {
+    font-family: albraFont;
+    src: url(/Albra/AlbraBookTRIAL-Medium.otf);
+  } 
+  Not using this font */
+
 * {
     box-sizing: border-box;
-    
+    /* font-family: albraFont; 
+    Not using this font*/ 
   }
+
+  
   
   body {
     margin: 0;
@@ -98,6 +107,23 @@
     background-color: #CE7777;
   }
 
+  /* row of images */
+
+  .horizontal-gallery {
+    background-color: #CE7777;
+    display: flex;
+    padding: 0% 5% 0% 5%;
+  }
+  .horizontal-gallery figure img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 0px;
+background: #ce7777;
+box-shadow:  5px 5px 10px #734343,
+             -5px -5px 5px #734343;
+  }
   
   /* About me*/
   #About-me {
