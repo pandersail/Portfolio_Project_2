@@ -112,16 +112,16 @@
   .horizontal-gallery {
     background-color: #CE7777;
     display: flex;
-    padding: 0% 5% 0% 5%;
+    padding: 1% 5% 1% 5%;
   }
   .horizontal-gallery figure img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     justify-content: center;
-    border-radius: 0px;
-background: #ce7777;
-box-shadow:  5px 5px 10px #734343,
+    border-radius: 1px;
+    background: #ce7777;
+    box-shadow:  5px 5px 10px #734343,
              -5px -5px 5px #734343;
   }
   
