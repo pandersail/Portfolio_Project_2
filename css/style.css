@@ -133,6 +133,7 @@
     justify-content: space-between;
     background-color: #efddc8;
     color: #2B3A55;
+    align-items: center;
   }
   
   #About-me h2 {
@@ -353,8 +354,9 @@
   }
 
   .pandersail {
-    width: 40%;
-    height: auto;
+    width: 12%;
+    height: 12%;
+    padding: 2px;
   }
   
   
