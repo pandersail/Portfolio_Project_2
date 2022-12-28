@@ -149,6 +149,12 @@
                -6px -6px 12px #ff9595;
   }
   
+  .pandersail {
+    width: 12%;
+    height: 12%;
+    padding: 2px;
+  }
+
   #About-me  p {
     font-size: 1vw;
     font-size: 2vh;
@@ -258,13 +264,15 @@
     /*background-color: #efddc8;*/
     color: #2B3A55;
     justify-content: end;
-    font-size: 30px;
+    font-size: 2vw;
+    font-size: 4vh;
     align-items: flex-start;
     padding-top: 90px;
   }
   
   #main-work h2 {
-    font-size: 35px;
+    font-size: 2vw;
+    font-size: 4vh;
     color: #CE7777;
     padding-left: 240px;
     padding-right: 20px;
@@ -277,6 +285,8 @@
   
   #main-work h3 {
     padding-left: 30px;
+    font-size: 1.5vw;
+    font-size: 3vh;
   }
   
   #main-work img {
@@ -302,7 +312,8 @@
     flex-direction: column;
     justify-content: center ;
     /*background-color: #efddc8;*/
-    font-size: 30px;
+    font-size: 1.5vw;
+    font-size: 3vh;
     color: #2B3A55;
     padding-bottom: 30px;
     margin-left: 27%;
@@ -322,11 +333,9 @@
   #Contact-me {
     display: flex;
     background-color: #2B3A55;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     color: #efddc8;
-    padding-bottom: 15px;
-    padding-left: 65px;
     border-radius: 0px;
   background: linear-gradient(145deg, #27344d, #2e3e5b);
   box-shadow:  5px 5px 10px #111722,
@@ -334,30 +343,42 @@
   }
   
   #Contact-me h2 {
-    font-size: 60px; 
-    padding-left: 80px;
+    font-size: 2vw;
+    font-size: 4vh;
+    padding-left: 240px;;
+    padding-right: 25px;
+    border-radius: 0px 25px 25px 0px;
+    margin-right: 5%;
+  background: linear-gradient(145deg, #27344d, #2e3e5b);
+  box-shadow:  5px 5px 10px #111722,
+               -5px -5px 10px #455d88;
   }
   
   #Contact-me li,
   #Contact-me p {
-    font-size: 30px;
-    list-style-type: none
-    ;
+    font-size: 1vw;
+    font-size: 2vh;
+    list-style-type: none;
   }
   
   .profile {
-    width: 30%;
+    width: 25vw;
     height: auto;
-
-  }
-
-  .pandersail {
-    width: 12%;
-    height: 12%;
-    padding: 2px;
+    border-radius: 23%;
+    margin-left: 3%;
+    background: linear-gradient(145deg, #27344d, #2e3e5b);
+  box-shadow:  0px 0px 5px #111722,
+               0px 0px 5px #111722;
   }
   
+  #Contact-me p {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
   
+  #Contact-me li {
+    padding: 15px 0px 15px 0px;
+  }
   
   /* Footer
   .Footer {
