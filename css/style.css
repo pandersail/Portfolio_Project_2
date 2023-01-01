@@ -137,8 +137,8 @@
   
   #About-me h2 {
     background-color: #CE7777;
-    font-size: 3vw;
-    font-size: 6vh;
+    font-size: 2.8vw;
+    font-size: 5.6vh;
     padding-left: 240px;
     padding-right: 20px;
     text-align: end;
@@ -269,7 +269,7 @@
     padding-top: 90px;
   }
   
-  #main-work h2 {
+  #main-work h3 {
     font-size: 2vw;
     font-size: 4vh;
     color: #CE7777;
@@ -281,7 +281,7 @@
                -5px -5px 10px #425982;
   }
   
-  #main-work h3 {
+  #main-work h4 {
     padding-left: 30px;
     font-size: 1.5vw;
     font-size: 3vh;
@@ -337,13 +337,12 @@
                -5px -5px 10px #455d88;
   }
   
-  #Contact-me h3 {
+  #Contact-me h4 {
     font-size: 2vw;
     font-size: 4vh;
     padding-left: 240px;;
     padding-right: 25px;
     border-radius: 0px 25px 25px 0px;
-    
   background: linear-gradient(145deg, #27344d, #2e3e5b);
   box-shadow:  5px 5px 10px #111722,
                -5px -5px 10px #455d88;
