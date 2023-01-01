@@ -10,8 +10,6 @@
     Not using this font*/ 
   }
 
-  
-  
   body {
     margin: 0;
     padding: 0;
@@ -88,7 +86,7 @@
     padding: 0px;
   }
   
-  .hero-banner .Emma { /* Changed from px to % */
+  .hero-banner .Emma { 
     width: 70%;
     height: auto;
     
@@ -112,6 +110,7 @@
 
   .horizontal-gallery {
     background-color: #CE7777;
+    flex-wrap: wrap;
     display: flex;
     padding: 1% 5% 1% 5%;
     border-radius: 0% 0% 2% 2%;
@@ -161,6 +160,7 @@
     padding: 20px;
   }
   
+  /* Scrolldown icon  */
   .scrolldown {
     --color: white;
     --sizeX: 30px;
@@ -196,7 +196,7 @@
       opacity: 0;
       height: 6px;
     }
-  
+
     40% {
       opacity: 1;
       height: 10px;
@@ -261,7 +261,6 @@
   }
   #main-work {
     display: flex;
-    /*background-color: #efddc8;*/
     color: #2B3A55;
     justify-content: end;
     font-size: 2vw;
@@ -280,7 +279,6 @@
     background: linear-gradient(145deg, #27344d, #2e3e5b);
     box-shadow:  5px 5px 10px #141b28,
                -5px -5px 10px #425982;
-    
   }
   
   #main-work h3 {
@@ -290,9 +288,8 @@
   }
   
   #main-work img {
-
     height: 37vh;
-    width: auto; /* Changed from px to % */
+    width: auto; 
     border-radius: 10px;
     -moz-box-shadow: 2px 4px 6px rgba(0,0,0,.5);
   -webkit-box-shadow: 2px 4px 6px rgba(0,0,0,.5);
@@ -305,13 +302,11 @@
     padding-top: 40px;
   }
   
-  
   /* remaining portfolio */
   #sub-work {
     display: flex;
     flex-direction: column;
     justify-content: center ;
-    /*background-color: #efddc8;*/
     font-size: 1.5vw;
     font-size: 3vh;
     color: #2B3A55;
@@ -320,7 +315,6 @@
   }
   
   #sub-work img {
-     /* Changed from px to % */
     height: 48vh;
     width: auto;
     border-radius: 5px;
@@ -332,23 +326,24 @@
   /* Contact*/
   #Contact-me {
     display: flex;
+    flex-wrap: wrap;
     background-color: #2B3A55;
     justify-content: flex-start;
     align-items: center;
     color: #efddc8;
     border-radius: 0px;
-  background: linear-gradient(145deg, #27344d, #2e3e5b);
-  box-shadow:  5px 5px 10px #111722,
+    background: linear-gradient(145deg, #27344d, #2e3e5b);
+    box-shadow:  5px 5px 10px #111722,
                -5px -5px 10px #455d88;
   }
   
-  #Contact-me h2 {
+  #Contact-me h3 {
     font-size: 2vw;
     font-size: 4vh;
     padding-left: 240px;;
     padding-right: 25px;
     border-radius: 0px 25px 25px 0px;
-    margin-right: 5%;
+    
   background: linear-gradient(145deg, #27344d, #2e3e5b);
   box-shadow:  5px 5px 10px #111722,
                -5px -5px 10px #455d88;
@@ -374,23 +369,10 @@
   #Contact-me p {
     padding-top: 5%;
     padding-left: 5%;
+    align-self: auto;
   }
   
   #Contact-me li {
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 15px 45px;
   }
   
-  /* Footer
-  .Footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2E5E5;
-    font-size: 25px;
-    color: #2B3A55;
-    align-items: center;
-  }
-  
-  .Footer img {
-    height: 300px;
-    width: 300px;
-  }*/

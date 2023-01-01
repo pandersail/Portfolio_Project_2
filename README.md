@@ -14,7 +14,8 @@ This repository contains the second project for the Edx bootcamp. The goal of th
 ### Portfolio
 
 ![Website image](./images/Portfolio-website.png)
-Accessible [here](https://pandersail.github.io/Portfolio_Project_2/)
+
+Accessible [here](https://pandersail.github.io/Portfolio_Project_2/).
 
 >Having a portfolio website is important because it allows you to showcase your work and accomplishments in a professional manner. A portfolio website serves as an online resume, highlighting your skills and experiences for potential employers or clients. It can also help you to stand out in a crowded job market, as it gives you a platform to demonstrate your unique value proposition.
 
