@@ -17,11 +17,11 @@ This repository contains the second project for the Edx bootcamp. The goal of th
 
 >Having a portfolio website is important because it allows you to showcase your work and accomplishments in a professional manner. A portfolio website serves as an online resume, highlighting your skills and experiences for potential employers or clients. It can also help you to stand out in a crowded job market, as it gives you a platform to demonstrate your unique value proposition.
 
-A portfolio website can also be a useful tool for networking and connecting with others in your industry. By sharing your portfolio website with others, you can attract new opportunities and collaborations.
+>A portfolio website can also be a useful tool for networking and connecting with others in your industry. By sharing your portfolio website with others, you can attract new opportunities and collaborations.
 
-In addition, a portfolio website is a great way to establish your personal brand and showcase your style and approach to work. This can be particularly important if you are a freelancer or entrepreneur, as it allows you to present yourself as a professional and establish your reputation in your field.
+>In addition, a portfolio website is a great way to establish your personal brand and showcase your style and approach to work. This can be particularly important if you are a freelancer or entrepreneur, as it allows you to present yourself as a professional and establish your reputation in your field.
 
-Overall, having a portfolio website can be a valuable asset for anyone looking to advance their career or attract new business.
+>Overall, having a portfolio website can be a valuable asset for anyone looking to advance their career or attract new business.
 
 ### Learned:
 - I learned a lot about practical web development skills and techniques.
@@ -36,7 +36,7 @@ You can [Tweet](https://twitter.com/pandersail) me with a question or provide fe
 
 ### License
 
-MIT License
+(*MIT License
 
 Copyright (c) 2022 Angelo
 
@@ -56,4 +56,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE.*)
